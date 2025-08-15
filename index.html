@@ -2,11 +2,12 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link rel="icon" type="image/jpg" href="/images/fav.jpg" />
     <meta
       http-equiv="Cache-Control"
       content="no-cache, no-store, must-revalidate"
     />
+
     <meta http-equiv="Pragma" content="no-cache" />
     <meta http-equiv="Expires" content="0" />
 
@@ -15,20 +16,58 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
     />
+    <!-- Google tag (gtag.js) -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=AW-17120111146"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "AW-17120111146");
+    </script>
+    <!-- Google tag (gtag.js) event -->
+    <script>
+      gtag("event", "ads_conversion_Demande_de_devis_1", {
+        // <event_parameters>
+      });
+    </script>
+    <!-- Google tag (gtag.js) event - delayed navigation helper -->
+    <script>
+      // Helper function to delay opening a URL until a gtag event is sent.
+      // Call it in response to an action that should navigate to a URL.
+      function gtagSendEvent(url) {
+        var callback = function () {
+          if (typeof url === "string") {
+            window.location = url;
+          }
+        };
+        gtag("event", "ads_conversion_Demande_de_devis_1", {
+          event_callback: callback,
+          event_timeout: 2000,
+          // <event_parameters>
+        });
+        return false;
+      }
+    </script>
     <title>Fronx</title>
-    <script type="module" crossorigin src="/assets/index-qvS-Y8WE.js"></script>
+    <script type="module" crossorigin src="/assets/index-DQEGDF8s.js"></script>
     <link rel="modulepreload" crossorigin href="/assets/cookie-CqkleIqs.js">
     <link rel="modulepreload" crossorigin href="/assets/react-DVL67wFG.js">
     <link rel="modulepreload" crossorigin href="/assets/scheduler-SPyfQU6S.js">
     <link rel="modulepreload" crossorigin href="/assets/react-dom-DzFmMYi4.js">
     <link rel="modulepreload" crossorigin href="/assets/swiper-bENAa8sp.js">
-    <link rel="modulepreload" crossorigin href="/assets/react-router-o4E84VQl.js">
+    <link rel="modulepreload" crossorigin href="/assets/react-icons-7afOkCT3.js">
+    <link rel="modulepreload" crossorigin href="/assets/react-router-Chdbwhv8.js">
     <link rel="modulepreload" crossorigin href="/assets/motion-utils-UsaZgHOw.js">
     <link rel="modulepreload" crossorigin href="/assets/motion-dom-CcW5ijFA.js">
     <link rel="modulepreload" crossorigin href="/assets/framer-motion-DoLDUPdZ.js">
-    <link rel="modulepreload" crossorigin href="/assets/react-icons-BdknXu1U.js">
     <link rel="stylesheet" crossorigin href="/assets/swiper-B9VUp9i4.css">
-    <link rel="stylesheet" crossorigin href="/assets/index-C7QhxIXs.css">
+    <link rel="stylesheet" crossorigin href="/assets/index-B-nFxkQz.css">
     <link rel="stylesheet" crossorigin href="/assets/@fortawesome-BrEE9P_r.css">
   </head>
   <body>
